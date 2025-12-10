@@ -17,6 +17,6 @@ for i in numbr:
     if i >= len(word):
         break
 
-nv = word.find("a") + word.find("e") + word.find("i") + word.find("o") + word.find("u") + word.find("A") + word.find("I") + word.find("E") + word.find("O") + word.find("U")
+# nv = word.find("a") + word.find("e") + word.find("i") + word.find("o") + word.find("u") + word.find("A") + word.find("I") + word.find("E") + word.find("O") + word.find("U")
 
 # print(f"# of vowels: {nv}")
