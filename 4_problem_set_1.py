@@ -8,13 +8,18 @@
 
 # Write a program that prints the numbers from **1 to 10**, each on a new line.
 
+the = range(11)
+
+for num in the:
+    print(num)
+
 
 
 # ### **Problem 2: Sum of Numbers
 
 # Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
 
-
+num2 = int(input("number: "))
 
 # ### **Problem 3: Factorial Calculator
 
@@ -69,3 +74,8 @@
 # **
 # ***
 # ****
+
+numbr = int(input("number again:  "))
+
+for i in range(numbr):
+    print("*" * i)
