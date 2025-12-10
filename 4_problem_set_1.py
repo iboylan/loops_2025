@@ -21,6 +21,11 @@ for num in the:
 
 num2 = int(input("number: "))
 
+total = 0
+for i in range(0,num2+1):
+    total = total + i
+
+print(total)
 # ### **Problem 3: Factorial Calculator
 
 # Ask the user for a number **n**, then calculate the **factorial** of that number.
